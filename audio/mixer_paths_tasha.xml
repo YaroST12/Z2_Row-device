@@ -516,13 +516,8 @@
     </path>
 
     <path name="speaker-volume">
-        <ctl name="RX0 Digital Volume" value="90" />
-        <ctl name="RX7 Digital Volume" value="87" />
-    </path>
-
-    <path name="analog-volume">
-        <ctl name="HPHL Volume" value="20" />
-        <ctl name="HPHR Volume" value="20" />
+        <ctl name="RX0 Digital Volume" value="85" />
+        <ctl name="RX7 Digital Volume" value="82" />
     </path>
 
     <path name="headphones-amp-class">
