@@ -511,12 +511,11 @@
     <ctl name="AFE_PCM_RX Audio Mixer MultiMedia3" value="0" />
 
     <path name="headphones-volume">
-        <ctl name="RX1 Mix Digital Volume" value="84" />
-        <ctl name="RX2 Mix Digital Volume" value="84" />
+        <ctl name="RX1 Mix Digital Volume" value="87" />
+        <ctl name="RX2 Mix Digital Volume" value="87" />
     </path>
 
     <path name="speaker-volume">
-        <ctl name="RX0 Digital Volume" value="85" />
         <ctl name="RX7 Digital Volume" value="82" />
     </path>
 
@@ -1840,19 +1839,6 @@
         <ctl name="ADC MUX7" value="DMIC" />
         <ctl name="DMIC MUX7" value="DMIC5" />
         <ctl name="IIR0 INP0 MUX" value="DEC7" />
-    </path>
-
-    <path name="speaker">
-        <path name="speaker-volume"/>
-        <ctl name="SLIM RX0 MUX" value="AIF_MIX1_PB" />
-        <ctl name="SLIM RX1 MUX" value="AIF_MIX1_PB" />
-        <ctl name="SLIM_0_RX Channels" value="Two" />
-        <ctl name="RX INT7_1 MIX1 INP0" value="RX0" />
-        <ctl name="RX INT0_1 MIX1 INP0" value="RX1" />
-        <ctl name="SpkrLeft COMP Switch" value="1" />
-        <ctl name="SpkrLeft BOOST Switch" value="1" />
-        <ctl name="SpkrLeft VISENSE Switch" value="1" />
-        <ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
     </path>
 
     <path name="speaker-fluid">
