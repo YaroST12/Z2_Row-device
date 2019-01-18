@@ -26,5 +26,8 @@ TARGET_OTA_ASSERT_DEVICE := z2_row
 # Kernel
 TARGET_KERNEL_CONFIG := z2_row_defconfig
 
+# Thermal
+USE_DEVICE_SPECIFIC_THERMAL := true
+
 # Inherit from the proprietary version
 -include vendor/zuk/z2_row/BoardConfigVendor.mk
