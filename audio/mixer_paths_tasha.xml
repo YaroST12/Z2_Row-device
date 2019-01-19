@@ -520,7 +520,7 @@
     </path>
 
     <path name="headphones-amp-class">
-        <ctl name="RX HPH Mode" value="CLS_H_HIFI" />
+        <ctl name="RX HPH Mode" value="CLS_AB" />
     </path>
 
     <!-- These are audio route (FE to BE) specific mixer settings -->
