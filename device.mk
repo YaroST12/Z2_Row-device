@@ -35,3 +35,6 @@ $(call inherit-product, device/zuk/msm8996-common/msm8996.mk)
 
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_prop.mk
+
+# Custom properties
+-include $(LOCAL_PATH)/custom_prop.mk
